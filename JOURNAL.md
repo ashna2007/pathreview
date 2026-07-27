@@ -24,12 +24,12 @@ This issue has a clearly defined bug, a known failing test, and a limited scope,
 
 ## Week 8 — Reproduction & solution planning
 
-**Reproduction commit link:** [add after committing]
+**Reproduction commit link:** https://github.com/ascherj/pathreview/commit/06f132bf497e1620de48d64fe8d0edd282257369 
 
 **Reproduction summary:**
 I reproduced the issue by running the existing unit test `test_none_context_chunk_text` in `tests/unit/test_faithfulness_checker.py`. The test failed because the faithfulness checker attempted to join a `None` value with strings, confirming that context chunks with `text: None` cause a `TypeError`.
 
-**PLAN.md link:** [add after pushing]
+**PLAN.md link:** https://github.com/ashna2007/pathreview/blob/fix/153-faithfulness-none-context/PLAN.md
 
 **Walkthrough video (recommended):** Not recorded
 
