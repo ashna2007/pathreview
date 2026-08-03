@@ -48,3 +48,22 @@ Push my branch, open a draft pull request, complete the PR template, request pee
 
 **Blockers:**
 None.
+
+### Check-in 2 (end of week)
+
+**PR link:** https://github.com/ascherj/pathreview/pull/665
+
+**Branch:** `fix/153-faithfulness-none-context`
+
+**What you built:**
+Implemented a fix for Issue #153 by updating the faithfulness checker to safely handle context chunks whose `"text"` field is `None`. This prevents a `TypeError` during context concatenation while preserving the existing behavior for valid text.
+
+**Tests added or updated:**
+No new tests were added. The existing unit test `test_none_context_chunk_text` now passes after the fix. I also verified that `make test-unit` improved from 53 failed / 375 passed to 52 failed / 376 passed.
+
+**Self-review confirmation:**
+- [x] `make check` introduces no new failures (182 pre-existing errors remain)
+- [x] `make test-unit` introduces no new failures (improved from 53 failed to 52 failed)
+
+**Draft PR feedback received from:**
+none
