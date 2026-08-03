@@ -35,3 +35,16 @@ I reproduced the issue by running the existing unit test `test_none_context_chun
 
 **Blockers or open questions:**
 I still need to confirm whether the intended behavior is to skip chunks with `None` text or treat them as empty strings, although the issue description suggests safely converting them to empty strings.
+
+## Week 9 — Solution building & PR submission
+
+### Check-in 1 (mid-week)
+
+**Current progress:**
+Implemented the fix for Issue #153 by updating the faithfulness checker to safely handle context chunks whose `"text"` field is `None`. I verified that the previously failing test now passes, and the full unit test results improved from 53 failures and 375 passes to 52 failures and 376 passes.
+
+**Next steps:**
+Push my branch, open a draft pull request, complete the PR template, request peer or mentor feedback, address any feedback I receive, and finalize the pull request.
+
+**Blockers:**
+None.
