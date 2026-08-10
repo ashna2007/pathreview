@@ -67,3 +67,37 @@ No new tests were added. The existing unit test `test_none_context_chunk_text` n
 
 **Draft PR feedback received from:**
 none
+
+## Week 10 — Iteration & reflection
+
+### Reviewer feedback
+
+**Feedback received:** [ ] Yes  [X] No — still awaiting review
+
+**Summary of feedback:**
+[What did reviewers comment on? Or note that no review came in.]
+No review came in.
+
+**How you responded:**
+[What changes did you make, or what did you reply? If no feedback,
+leave blank.]
+
+---
+
+### Reflection
+
+**What was harder than you expected?**
+Trying to understand how my issues fits into the codebase was very difficult. It took the longest amount of time, considering the fact that there were multiple failing tests, yet there was only one relevant to mine. I thought that because it was a small issue, it would be easy to follow and find, and as a result, underestimated how much time it would take to find that issue and understand what was going on. 
+
+**What did you learn about working in a large codebase?**
+One of the most significant things I learned from this entire process is that even as something small as a tier one issue, a single line code change, can be so important. When building your own project, you don't pay attention to the single line changes, but with a large codebase, since every little thing is very significant to the entire functionality, it's more important even though it may not feel like it.
+
+**How did AI tools help — and where did they fall short?**
+AI assistance was the most useful when trying to understand the codebase. It is a very large codebase, and my contribution was so small, so locating where my issue was and understanding where to start was crucial. Claude helped me intially navigate what I was working with, and it made my life much easier. However, it did fall short when it came to locating the specific test I needed, so prompting that a little bit more and replicating the issue were the steps I had to take to fix that.
+
+
+**What would you do differently if you started over?**
+I think planning would be the biggest change I would make. This issue was interesting and significant, but I overestimated the amount of time it would take. If I started again, I would've completed this issue much quicker and tried completing another one as well.
+
+**What are you most proud of from this module?**
+I think the fact that I was able to understand how relevant a simple fix can be to fixing the entire issue is the thing I am most proud of. Without my fix, the RAG would not be able to work, eventually propagating into a bigger issue that hinders the functionality of the app. Open source contributions, big or small, make huge changes overall, and that's what made me proud of the small yet mighty work I did.
